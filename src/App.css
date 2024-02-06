@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  /* 10px = 1rem */
+  font-size: 62.5%;
+
+  margin: 0;
+}
+
 .App {
   /* Height is temporary */
   height: 100vh;
@@ -12,6 +20,11 @@
 .grid-col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contact-info {
+  display: flex;
 
 }
 
