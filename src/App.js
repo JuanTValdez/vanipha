@@ -1,8 +1,11 @@
 import './App.css';
+import Roll from './images/roll.png';
+import
 
 function App() {
 	return (
 		<div className='App'>
+			
 			<div className='grid-col'>
 				<div className='left-col'>
 					<h1>Coming Soon</h1>
@@ -26,7 +29,7 @@ function App() {
 					</div>
 				</div>
 				<div className='right-col'>
-					<img src='' alt='' className='abs' />
+					<img src={Roll} alt='' className='abs' />
 				</div>
 			</div>
 		</div>

@@ -19,7 +19,8 @@
 
 .grid-col {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 56rem);
+  grid-template-rows: repeat( )
 
 }
 
@@ -43,3 +44,5 @@
   border: 5px solid #3a3b3c;
 
 }
+
+
