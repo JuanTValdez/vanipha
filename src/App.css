@@ -24,17 +24,29 @@
 .grid-col {
   display: grid;
   grid-template-columns: repeat(2, 56rem);
-  grid-template-rows: repeat()
+
 }
 
 .contact-info {
   display: flex;
+  gap: 4rem;
+
+  margin: auto 0 0 0;
 
 }
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
 
 .right-col {
   text-align: right;
-  ;
+
 
 }
 
@@ -42,36 +54,46 @@
 
 
 
-h1 {
-  font-size: 6rem;
-  margin: 2rem 0rem;
+.coming-soon {
+  font-size: 7.7rem;
+  margin-top: 1rem;
+
 }
 
 .spring-2024 {
   font-size: 2.6rem;
   font-weight: bold;
+  margin: 3rem 0 0;
+
 }
 
-p {
-
+.descrip {
+  
   font-size: 2rem;
+  margin-top: 2rem;
+  width: 85%;
 }
 
-h4 {
-  font-size: 1.6rem;
-}
 
-p {
+
+.caption-caps {
   font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
-.inter {
+.caption {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.inter-font {
   font-family: 'Inter', sans-serif;
+  color: #3e3731;
 }
 
-.inter-tight {
+.inter-tight-font {
   font-family: 'Inter-tight', sans-serif;
-  font-weight: bold;
+
   color: #3e3731;
-  font-size: 7.7rem;
+
 }
