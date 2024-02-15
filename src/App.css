@@ -2,37 +2,48 @@
   box-sizing: border-box;
   /* 10px = 1rem */
   font-size: 62.5%;
-
   margin: 0;
 }
 
 .App {
-  /* Height is temporary */
-  height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
+
+  height: 100svh;
+
   background-color: #EFF0EA;
-  padding: 2rem 0rem;
+
 
 
 }
 
 .logo {
-  grid-row: 1/1;
-  align-self: flex-start;
+
+  outline: 2px solid red;
+  margin: 4.2rem 0 14.4rem 0;
+  max-height: 6.5rem;
+  max-width: 18.7rem;
+
+  & img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: contain;
+
+  }
+
 }
 
 
 
 .grid-col {
+  outline: 2px solid blue;
   display: grid;
-  grid-template-columns: repeat(2, 56rem);
-  /* grid-template-rows: repeat(2, 8rem 1fr); */
-  align-content: center;
-  /* justify-content: center; */
-  /* align-items: center; */
+
+  grid-template-columns: repeat(2, 30%);
+ 
+  justify-content: center;
+  
+
+
 
 }
 
@@ -45,33 +56,23 @@
 }
 
 .left-col {
-
   grid-row: 2/2;
-
   display: flex;
-
   flex-direction: column;
 
 
 }
 
-
-
 .right-col {
   grid-row: 2/2;
   text-align: right;
 
-
 }
-
-
-
-
 
 .coming-soon {
   font-size: 7.7rem;
   margin-top: 1rem;
-
+  font-weight: bold;
 }
 
 .spring-2024 {
@@ -82,7 +83,6 @@
 }
 
 .descrip {
-
   font-size: 2rem;
   margin-top: 2rem;
   width: 85%;

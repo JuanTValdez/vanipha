@@ -1,12 +1,14 @@
 import './App.css';
 import Roll from './images/roll.png';
-import Vanipha from './images/vanipha_logo.png';
+// import Vanipha from './images/vanipha_logo.png';
 import Vanipha2 from './images/vanipha_logo_x2.png';
 function App() {
 	return (
 		<div className='App'>
-			<img className='logo' src={Vanipha} alt='logo' />
 			<div className='grid-col'>
+				<div className='logo'>
+					<img src={Vanipha2} alt='logo' />
+				</div>
 				<div className='left-col'>
 					<h1 className='coming-soon inter-tight-font'>Coming Soon</h1>
 					<h6 className='spring-2024 inter-font'>Spring 2024</h6>
