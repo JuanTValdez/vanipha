@@ -1,7 +1,7 @@
 import './App.css';
 import Roll from './images/roll.png';
-import Vanipha from './images/vanipha.png';
-
+import Vanipha from './images/vanipha_logo.png';
+import Vanipha2 from './images/vanipha_logo_x2.png';
 function App() {
 	return (
 		<div className='App'>
