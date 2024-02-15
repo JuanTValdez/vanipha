@@ -17,13 +17,13 @@ function App() {
 						website – stay tuned!
 					</p>
 					<div className='contact-info'>
-						<div className='address'>
+						<div >
 							<h4 className='caption-caps inter-font'>Kitchen</h4>
 							<p className='caption'>221 Geary Ave.</p>
 							<p className='caption'>Toronto, ON</p>
 							<p className='caption'>M6H 2C1</p>
 						</div>
-						<div>
+						<div> 
 							<h4 className='caption-caps inter-font'>Contact</h4>
 							<p className='caption'>(416)-484-9625</p>
 							<p className='caption'>info@vanipha.com</p>
