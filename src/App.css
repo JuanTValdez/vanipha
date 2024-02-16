@@ -9,19 +9,18 @@
 .App {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
   outline: 2px solid red;
-  /* padding: 0 38.4rem; */
+
   padding: 0 20dvw;
 }
 
 .logo {
 
   outline: 2px solid red;
-  /* margin: 4.2rem 0 7.2rem 0; */
+
   max-height: 6.5rem;
   max-width: 18.7rem;
+  margin-bottom: 18rem;
 
   & img {
     height: 100%;
@@ -33,44 +32,73 @@
 
 }
 
-.grid-col {
+.flex-col {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-
-
-
-  /* display: grid;
-  grid-template-columns: repeat(2, 30dvw );
-  flex-direction: column;
-  justify-content: center; */
+  outline: 2px solid cyan;
 }
 
+.left-col,
+.right-col {
+  width: 30dvw;
+}
 
+.left-col {
+  outline: 4px solid green;
+}
 
+.right-col {
+  outline: 3px solid purple;
 
+  /* text-align: right; */
 
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 
+.coming-soon {
+  font-size: 7.7rem;
+  font-weight: bold;
+  margin: 2rem 0 4.8rem 0;
+}
 
+.spring-2024 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
 
+}
 
+.descrip {
+  width: 85%;
+  font-size: 2rem;
+  font-weight: medium;
+  line-height: 28px;
+  margin-bottom: 8.8rem;
+}
 
+.contact-info {
+  display: flex;
+  flex-direction: row;
 
+  gap: 10rem;
 
+}
 
+.caption-caps {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.caption {
+  font-size: 1.5rem;
+  font-weight: medium;
+  margin-bottom: 0.5rem;
+}
 
 .inter-font {
   font-family: 'Inter', sans-serif;
@@ -89,7 +117,38 @@
 
 
 
-@media screen and (max-width: 430px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+  .App,
+  .flex-col {
+    display: block;
+    padding: 0;
+  }
 
   .logo {
     max-height: 6.5rem;
@@ -123,8 +182,7 @@
 
   .contact-info {
     display: flex;
-    /* justify-content:space-between; */
-    /* justify-self: flex-start; */
+
     gap: 8.5rem;
     margin: 2rem 0 0 2rem;
   }
@@ -142,6 +200,9 @@
     margin-bottom: 0.5rem;
   }
 
+  .left-col {
+    width: 100%;
+  }
 
 
   .right-col {
@@ -151,7 +212,7 @@
     width: 100%;
     height: 17.5rem;
     padding: 0 2rem;
-
+    outline: none;
 
     & img {
 
