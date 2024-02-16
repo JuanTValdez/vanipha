@@ -35,12 +35,13 @@
 .flex-col {
   display: flex;
   flex-direction: row;
+  height: 30dvw;
   outline: 2px solid cyan;
 }
 
 .left-col,
 .right-col {
-  width: 30dvw;
+  width: 15dvw;
 }
 
 .left-col {
@@ -60,13 +61,14 @@
 }
 
 .coming-soon {
-  font-size: 7.7rem;
+  /* font-size: 7.7rem; */
+  font-size: 4vmax;
   font-weight: bold;
   margin: 2rem 0 4.8rem 0;
 }
 
 .spring-2024 {
-  font-size: 2.6rem;
+  font-size: 1.4dvw;
   font-weight: bold;
   margin-bottom: 1.4rem;
 
@@ -74,7 +76,7 @@
 
 .descrip {
   width: 85%;
-  font-size: 2rem;
+  font-size: 1dvw;
   font-weight: medium;
   line-height: 28px;
   margin-bottom: 8.8rem;
@@ -89,13 +91,13 @@
 }
 
 .caption-caps {
-  font-size: 1.2rem;
+  font-size: 0.6dvw;
   font-weight: bold;
   margin-bottom: 0.4rem;
 }
 
 .caption {
-  font-size: 1.5rem;
+  font-size: 0.8dvw;
   font-weight: medium;
   margin-bottom: 0.5rem;
 }
