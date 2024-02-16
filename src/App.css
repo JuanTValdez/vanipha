@@ -9,18 +9,18 @@
 .App {
   display: flex;
   flex-direction: column;
-  outline: 2px solid red;
+
 
   padding: 0 20dvw;
 }
 
 .logo {
 
-  outline: 2px solid red;
+
 
   max-height: 6.5rem;
   max-width: 18.7rem;
-  margin-bottom: 18rem;
+  margin: 0.8dvw 0 18rem 0;
 
   & img {
     height: 100%;
@@ -35,21 +35,22 @@
 .flex-col {
   display: flex;
   flex-direction: row;
-  height: 30dvw;
-  outline: 2px solid cyan;
+  height: 23dvw;
+
 }
 
 .left-col,
 .right-col {
-  width: 15dvw;
+  width: 30dvw;
 }
 
 .left-col {
-  outline: 4px solid green;
+
+  position: relative;
 }
 
 .right-col {
-  outline: 3px solid purple;
+
 
   /* text-align: right; */
 
@@ -78,11 +79,15 @@
   width: 85%;
   font-size: 1dvw;
   font-weight: medium;
-  line-height: 28px;
+  /* line-height: 28px;   */
+  line-height: 1.4dvw;
   margin-bottom: 8.8rem;
 }
 
 .contact-info {
+  max-height: 30%;
+  position: absolute;
+  bottom: 0;
   display: flex;
   flex-direction: row;
 
@@ -178,11 +183,13 @@
   .descrip {
     width: 70%;
     font-size: 2rem;
+    line-height: 28px;  
     font-weight: medium;
     margin: 0 0 8.8rem 2rem;
   }
 
   .contact-info {
+    position: static;
     display: flex;
 
     gap: 8.5rem;
@@ -203,6 +210,7 @@
   }
 
   .left-col {
+    /* position: static; */
     width: 100%;
   }
 

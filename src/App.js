@@ -39,3 +39,5 @@ function App() {
 }
 
 export default App;
+
+// ! CONTACT LIST BEING COVERED BY IMG WHEN IN MOBILE MODE
