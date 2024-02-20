@@ -126,8 +126,10 @@
 
   .App,
   .flex-col {
-    display: block;
+    /* display: block; */
+    flex-direction: column;
     padding: 0;
+
     padding: 0 2rem;
   }
 
@@ -185,7 +187,7 @@
   }
 
   .left-col {
-   
+
     width: 100%;
   }
 
@@ -195,7 +197,7 @@
 
     width: 100%;
     margin-top: 8rem;
-   
+
     outline: none;
 
     & img {
@@ -222,8 +224,17 @@
     font-size: 6.6rem;
   }
 
-  .descrip{
+  .descrip {
     font-size: 1.6rem;
+    margin: 0 0 4.4rem 0;
+  }
+
+  .caption-caps {
+    font-size: 1.2rem;
+  }
+
+  .caption {
+    font-size: 1.4rem;
   }
 
   .contact-info {
@@ -231,12 +242,13 @@
   }
 }
 
-@media screen and (max-width: 280px){
+@media screen and (max-width: 280px) {
 
-  .caption-caps{
+  .caption-caps {
     font-size: 1rem;
   }
-  .caption{
+
+  .caption {
     font-size: 1.2rem;
   }
 }
