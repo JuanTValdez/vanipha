@@ -16,16 +16,18 @@ function App() {
 						website – stay tuned!
 					</p>
 					<div className='contact-info'>
-						<div>
+						<div className='address'>
 							<h4 className='caption-caps inter-font'>Kitchen</h4>
 							<p className='caption inter-font'>221 Geary Ave.</p>
 							<p className='caption inter-font'>Toronto, ON</p>
 							<p className='caption inter-font'>M6H 2C1</p>
 						</div>
-						<div>
+						<div className='address'>
 							<h4 className='caption-caps inter-font'>Contact</h4>
 							<p className='caption inter-font'>(416)-484-9625</p>
-							<p className='caption inter-font'>info@vanipha.com</p>
+							<a href='mailto:info@vanipha.com' className='caption inter-font'>
+								info@vanipha.com
+							</a>
 						</div>
 					</div>
 				</div>
@@ -38,5 +40,3 @@ function App() {
 }
 
 export default App;
-
-
