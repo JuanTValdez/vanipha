@@ -104,13 +104,14 @@
 }
 
 .inter-font {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: medium;
   color: #3e3731;
 }
 
 .inter-tight-font {
-  font-family: 'Inter-tight', sans-serif;
-
+  font-family: "Inter Tight", sans-serif;
+  font-weight: bold;
   color: #3e3731;
 
 }
@@ -188,9 +189,9 @@
 
   .right-col {
 
-    
+
     width: 100%;
- 
+    margin-top: 8rem;
     padding: 0 2rem;
     outline: none;
 
@@ -198,8 +199,8 @@
 
       height: 100%;
       width: 100%;
-      object-fit: cover;
-      object-position: 0px 0px;
+      object-fit: contain;
+
 
     }
   }
@@ -207,166 +208,3 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-/* App {
-
-  
-}
-
-
-.logo {
-
-  outline: 2px solid red;
-  margin: 4.2rem 0 7.2rem 0;
-  max-height: 6.5rem;
-  max-width: 18.7rem;
-
-  & img {
-    height: 100%;
-    width: 100%;
-
-    object-fit: contain;
-
-  }
-
-}
-
-
-
-.grid-col {
-  outline: 2px solid blue;
-  display: grid;
-
-  grid-template-columns: repeat(2, 30%);
-
-  justify-content: center;
-
-
-
-
-}
-
-.contact-info {
-  display: flex;
-  gap: 4rem;
-
-  margin: auto 0 0 0;
-
-}
-
-.left-col {
-  grid-row: 2/2;
-  display: flex;
-  flex-direction: column;
-
-
-}
-
-.right-col {
-  grid-row: 2/2;
-  text-align: right;
-
-}
-
-.coming-soon {
-  font-size: 7.7rem;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-.spring-2024 {
-  font-size: 2.6rem;
-  font-weight: bold;
-  margin: 3rem 0 0;
-
-}
-
-.descrip {
-  font-size: 2rem;
-  margin-top: 2rem;
-  width: 85%;
-}
-
-
-
-.caption-caps {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
-
-.caption {
-  font-size: 1.5rem;
-  margin: 0.5rem 0 0.5rem 0;
-}
-
-.inter-font {
-  font-family: 'Inter', sans-serif;
-  color: #3e3731;
-}
-
-.inter-tight-font {
-  font-family: 'Inter-tight', sans-serif;
-
-  color: #3e3731;
-
-}
-
-@media screen and (max-width: 430px) {
-  .App{
-    height: 100%;
-  }
-  
-  .logo {
-    outline: 2px solid green;
-    margin: 4rem 0 4rem 1rem;
-  }
-
-  .grid-col {
-    grid-template-columns: repeat(2, auto);
-  }
-
-  .left-col {
-    grid-column: 1/3;
-    grid-row: 2/2;
-    margin-left: 1rem;
-
-    & .coming-soon {
-      margin-bottom: 4rem;
-    }
-
-    & .spring-2024 {
-      margin-bottom: 1.4rem;
-    }
-
-    & .descrip {
-      margin-bottom: 8.8rem;
-    }
-
-    & .caption {
-      margin-bottom: 1rem;
-    }
-  }
-
-  .right-col {
-    outline: 2px solid blue;
-    grid-column: 1/3;
-    grid-row: 3/3;
-    height: 35%;
-
-    & img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-      object-position: 0px 0px;
-
-    }
-  }
-} */
