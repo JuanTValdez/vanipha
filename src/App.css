@@ -51,9 +51,6 @@
 
 .right-col {
 
-
-  /* text-align: right; */
-
   & img {
     width: 100%;
     height: 100%;
@@ -62,7 +59,7 @@
 }
 
 .coming-soon {
-  /* font-size: 7.7rem; */
+
   font-size: 4vmax;
   font-weight: bold;
   margin: 2rem 0 4.8rem 0;
@@ -79,7 +76,6 @@
   width: 85%;
   font-size: 1dvw;
   font-weight: medium;
-  /* line-height: 28px;   */
   line-height: 1.4dvw;
   margin-bottom: 8.8rem;
 }
@@ -118,31 +114,6 @@
   color: #3e3731;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -217,16 +188,15 @@
 
   .right-col {
 
-    position: absolute;
-    bottom: 0;
+    
     width: 100%;
-    height: 17.5rem;
+ 
     padding: 0 2rem;
     outline: none;
 
     & img {
 
-      height: 17.5rem;
+      height: 100%;
       width: 100%;
       object-fit: cover;
       object-position: 0px 0px;

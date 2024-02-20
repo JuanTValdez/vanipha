@@ -1,6 +1,5 @@
 import './App.css';
 import Roll from './images/roll.png';
-// import Vanipha from './images/vanipha_logo.png';
 import Vanipha2 from './images/vanipha_logo_x2.png';
 function App() {
 	return (
@@ -40,4 +39,4 @@ function App() {
 
 export default App;
 
-// ! CONTACT LIST BEING COVERED BY IMG WHEN IN MOBILE MODE
+
