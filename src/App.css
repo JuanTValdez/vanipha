@@ -12,6 +12,7 @@
 
 
   padding: 0 20dvw;
+
 }
 
 .logo {
@@ -66,7 +67,7 @@
 
   font-size: 4vmax;
   font-weight: bold;
-  margin: 2rem 0 4.8rem 0;
+  margin-bottom: 4.8rem;
 }
 
 .spring-2024 {
@@ -77,7 +78,7 @@
 }
 
 .descrip {
-  width: 85%;
+  width: 77%;
   font-size: 1dvw;
   font-weight: medium;
   line-height: 1.4dvw;
@@ -128,22 +129,26 @@
 
 @media screen and (max-width: 1080px) {
 
-  .App,
+  .App {
+    padding: 0 2rem;
+  }
+
   .flex-col {
     position: static;
     top: 0%;
     transform: translateY(0);
     flex-direction: column;
-    padding: 0;
 
-    padding: 0 2rem;
+
+
   }
 
   .logo {
     max-height: 6.5rem;
     max-width: 16.7rem;
-    margin: 0 0 8rem 0;
-    padding-top: 2.6rem;
+    margin-top: 1.3rem;
+    margin-bottom: 4.4rem;
+
 
     & img {
       width: 100%;
@@ -154,7 +159,7 @@
   .coming-soon {
     font-size: 7.7rem;
     font-weight: bold;
-    margin: 0 0 4rem 0;
+    margin-bottom: 4rem;
   }
 
   .spring-2024 {
@@ -164,7 +169,7 @@
   }
 
   .descrip {
-    width: 70%;
+    /* width: 70%; */
     font-size: 2rem;
     line-height: 28px;
     font-weight: medium;
@@ -206,33 +211,21 @@
     margin-top: 8rem;
 
     outline: none;
-
-    & img {
-
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-
-
-    }
   }
-
 }
 
 @media screen and (max-width: 430px) {
-
-
-  .App {
-    padding: 0.25rem;
-
-  }
 
   .coming-soon {
     font-size: 6.6rem;
   }
 
+  .spring-2024 {
+    font-size: 2rem;
+  }
+
   .descrip {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 0 0 4.4rem 0;
   }
 
@@ -245,11 +238,15 @@
   }
 
   .contact-info {
-    gap: 1.5rem;
+    gap: 6rem;
   }
 }
 
 @media screen and (max-width: 280px) {
+
+  .descrip {
+    font-size: 1.6rem;
+  }
 
   .caption-caps {
     font-size: 1rem;

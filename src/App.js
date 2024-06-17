@@ -10,11 +10,8 @@ function App() {
 			<div className='flex-col'>
 				<div className='left-col'>
 					<h1 className='coming-soon inter-tight-font'>Coming Soon</h1>
-					<h6 className='spring-2024 inter-font'>Spring 2024</h6>
-					<p className='descrip inter-font'>
-						We're cooking up something great and can't wait to share our new
-						website – stay tuned!
-					</p>
+					<h6 className='spring-2024 inter-font'>Summer 2024</h6>
+
 					<div className='contact-info'>
 						<div className='address'>
 							<h4 className='caption-caps inter-font'>Kitchen</h4>
@@ -24,7 +21,7 @@ function App() {
 						</div>
 						<div className='address'>
 							<h4 className='caption-caps inter-font'>Contact</h4>
-							<p className='caption inter-font'>(416)-484-9625</p>
+							<p className='caption inter-font'>(416) 484-9625</p>
 							<a href='mailto:info@vanipha.com' className='caption inter-font'>
 								info@vanipha.com
 							</a>
