@@ -14,10 +14,9 @@ function App() {
 					</h1>
 					<h6 className='spring-2024 inter-font'>Summer 2025</h6>
 
-					<p className='description inter-font'>
-						We are excited to announce that we are currently working
-						on a new restaurant concept. Stay tuned for more
-						information.
+					<p className='descrip inter-font'>
+						We're cooking up something great and can't wait to share
+						our new website – stay tuned!
 					</p>
 					<div className='contact-info'>
 						<div className='address'>
